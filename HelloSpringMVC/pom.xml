@@ -7,7 +7,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>HelloSpringMVC Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  
+  <properties>
+		<!-- redis 版本 -->
+		<redis.version>2.9.0</redis.version>
+		<spring.redis.version>2.1.2.RELEASE</spring.redis.version>
+  </properties>
   <dependencies>
  
         <dependency>
@@ -198,9 +202,18 @@
 
 
 
+<!-- redis -->
 
-
-
+<dependency>
+    <groupId>redis.clients</groupId>
+    <artifactId>jedis</artifactId>
+    <version>${redis.version}</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-redis</artifactId>
+    <version>${spring.redis.version}</version>
+</dependency>
 
 
 
