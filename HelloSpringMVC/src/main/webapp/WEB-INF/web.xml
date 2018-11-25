@@ -8,7 +8,7 @@
    <!-- 加载spring的配置文件 -->
    <context-param>
        <param-name>contextConfigLocation</param-name>
-       <param-value>/WEB-INF/root-context.xml,/WEB-INF/jdbc.xml</param-value>
+       <param-value>/WEB-INF/root-context.xml,/WEB-INF/jdbc.xml,/WEB-INF/spring-redis.xml</param-value>
    </context-param>
  
    <!-- Spring ContextLoaderListener -->

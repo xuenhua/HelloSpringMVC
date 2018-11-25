@@ -8,9 +8,9 @@
   <name>HelloSpringMVC Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-		<!-- redis 版本 -->
-		<redis.version>2.9.0</redis.version>
-		<spring.redis.version>2.1.2.RELEASE</spring.redis.version>
+		<!-- redis 版本 spring jedis spring-data-redis版本要一致，按照发布时间试出来的组合-->
+		<redis.version>2.6.2</redis.version>
+		<spring.redis.version>1.4.1.RELEASE</spring.redis.version>
   </properties>
   <dependencies>
  

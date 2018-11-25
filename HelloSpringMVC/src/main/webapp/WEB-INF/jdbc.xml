@@ -15,7 +15,7 @@
  http://www.springframework.org/schema/tx/spring-tx.xsd 
  http://www.springframework.org/schema/aop 
  http://www.springframework.org/schema/aop/spring-aop.xsd">
- <context:property-placeholder location="/WEB-INF/db.properties"/>
+ <context:property-placeholder location="/WEB-INF/db.properties,/WEB-INF/redis.properties"/>
  
  <!-- 配置事务管理器 -->
       <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
