@@ -7,6 +7,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>HelloSpringMVC Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  
   <properties>
 		<!-- redis 版本 spring jedis spring-data-redis版本要一致，按照发布时间试出来的组合-->
 		<redis.version>2.6.2</redis.version>
