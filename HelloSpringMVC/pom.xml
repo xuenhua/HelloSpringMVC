@@ -241,7 +241,7 @@
                 </configuration>
                 -->   
             </plugin>
-            <!-- 在maven中setting中增加profile配置jdk版本 -->
+            <!-- 在maven中setting中增加profile配置jdk版本 配置本地java-->
             <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
